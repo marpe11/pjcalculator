@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+# pjcalculator
 
-## Project info
+Uma calculadora moderna e responsiva para simulação de remuneração de Pessoa Jurídica (PJ) e comparação com o regime CLT. Desenvolvida com as mais recentes tecnologias de front-end para oferecer uma experiência de usuário fluida e intuitiva.
 
-**URL**: https://lovable.dev/projects/801396b6-63dc-423a-b01b-3f841ff15237
+## 🚀 Tecnologias Utilizadas
 
-## How can I edit this code?
+Este projeto foi construído utilizando um conjunto de tecnologias modernas e eficientes:
 
-There are several ways of editing your application.
+*   **Frontend Framework:** [React](https://reactjs.org/) com [TypeScript](https://www.typescriptlang.org/)
+*   **Build Tool:** [Vite](https://vitejs.dev/)
+*   **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Componentes UI:** [shadcn/ui](https://ui.shadcn.com/)
+*   **Roteamento:** [React Router DOM](https://reactrouter.com/en/main)
+*   **Gerenciamento de Estado/Dados:** [@tanstack/react-query](https://tanstack.com/query/latest)
 
-**Use Lovable**
+## ✨ Funcionalidades Principais
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/801396b6-63dc-423a-b01b-3f841ff15237) and start prompting.
+O `pjcalculator` oferece uma interface simples para:
 
-Changes made via Lovable will be committed automatically to this repo.
+1.  **Simulação de Salário PJ:** Insira o salário bruto desejado para o regime PJ.
+2.  **Cálculo de Benefícios:** Inclua valores para Vale-Refeição, Vale-Transporte e Plano de Saúde.
+3.  **Comparação CLT:** O sistema realiza uma simulação comparativa com o regime CLT, considerando os descontos e benefícios típicos.
+4.  **Regimes PJ:** Permite a seleção entre diferentes regimes de tributação PJ (ex: "simples" e "completo").
 
-**Use your preferred IDE**
+## 🛠️ Instalação e Execução Local
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Para configurar e executar o projeto em seu ambiente local, siga os passos abaixo:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Pré-requisitos
 
-Follow these steps:
+Certifique-se de ter o [Node.js](https://nodejs.org/) (versão 18+) e o [npm](https://www.npmjs.com/) instalados.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Passos
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/marpe11/pjcalculator.git
+    cd pjcalculator
+    ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
 
-**Edit a file directly in GitHub**
+O aplicativo estará acessível em `http://localhost:5173` (ou outra porta, conforme indicado pelo Vite).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🤝 Contribuição
 
-**Use GitHub Codespaces**
+Contribuições são bem-vindas! Se você tiver sugestões de melhoria, novas funcionalidades ou encontrar algum bug, sinta-se à vontade para abrir uma *issue* ou enviar um *Pull Request*.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📄 Licença
 
-## What technologies are used for this project?
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` (se existir) para mais detalhes.
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/801396b6-63dc-423a-b01b-3f841ff15237) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+*Desenvolvido por [marpe11](https://github.com/marpe11)*
