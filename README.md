@@ -52,7 +52,6 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) (versão 18+) e o [npm](ht
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhoria, novas funcionalidades ou encontrar algum bug, sinta-se à vontade para abrir uma *issue* ou enviar um *Pull Request*.
 
-## 📄 Licença
 
 ---
 *Desenvolvido por [marpe11](https://github.com/marpe11)*
