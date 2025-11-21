@@ -48,15 +48,11 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) (versão 18+) e o [npm](ht
     npm run dev
     ```
 
-O aplicativo estará acessível em `http://localhost:5173` (ou outra porta, conforme indicado pelo Vite).
-
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhoria, novas funcionalidades ou encontrar algum bug, sinta-se à vontade para abrir uma *issue* ou enviar um *Pull Request*.
 
 ## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` (se existir) para mais detalhes.
 
 ---
 *Desenvolvido por [marpe11](https://github.com/marpe11)*
